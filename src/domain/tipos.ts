@@ -1,4 +1,4 @@
-export type Produto = { id: string; nome: string; precoCentavos: number };
+export type Produto = { id: string; nome: string; precoCentavos: number; imagem?: string };
 export type ItemCarrinho = { produto: Produto; quantidade: number };
 export type Carrinho = ItemCarrinho[];
 
