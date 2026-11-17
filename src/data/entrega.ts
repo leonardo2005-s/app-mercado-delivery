@@ -1,0 +1,1 @@
+export const PREVISAO_ENTREGA = "hoje, entre 18h e 19h";
